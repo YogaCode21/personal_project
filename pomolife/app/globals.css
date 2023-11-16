@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#262626] flex justify-center items-center text-[#d9e4ff] min-h-screen font-fontFamily;
+  }
+}
+
+@layer components {
+  .tw-timer-container {
+    @apply bg-[#1A1A1A] w-[20rem] h-[20rem] flex justify-center items-center rounded-full bg-gradient-to-t shadow-2xl ;
+  }
+
+  .tw-timer {
+    @apply bg-[#1A1A1A] w-[17rem] h-[17rem] flex justify-center items-center rounded-full text-6xl ;
+  }
+
+  .tw-infoContainer {
+    @apply bg-[#1A1A1A] flex justify-between items-center rounded-full p-3 mb-6;
+  }
+
+  .tw-infoItem {
+    @apply p-3 text-white font-semibold rounded-full text-xs flex-1 text-center whitespace-nowrap cursor-pointer;
+  }
+
+  .tw-infoItem.active {
+    @apply bg-[#f87070] text-[#1A1A1A];
+  }
+  
+  .header-project{
+    @apply font-bold text-3xl m-3 text-center
+  }
+
+  .tasks-input{
+    @apply bg-[#1A1A1A] p-3
+  }
+
+  .tasks-button{
+    @apply bg-[#f87070] p-3 text-[#1A1A1A] font-bold 
+  }
+}
