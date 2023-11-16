@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-[#262626] flex justify-center items-center text-[#d9e4ff] min-h-screen font-fontFamily;
+    @apply bg-[#262626] flex justify-center items-center text-white min-h-screen font-fontFamily;
   }
 }
 
