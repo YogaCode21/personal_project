@@ -68,11 +68,11 @@ const App = () => {
                   pomodoro={pomodoro}
                   selectedControl={selectedControl}
                 />
-                <ToggleButton pomodoro={pomodoro} setPomodoro={setPomodoro} />
               </CircularProgressbarWithChildren>
             </div>
           </div>
         </div>
+          <ToggleButton pomodoro={pomodoro} setPomodoro={setPomodoro} />
         <button onClick={() => setIsSettingsOn(true)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +88,7 @@ const App = () => {
             />
           </svg>
         </button>
+        
         <Modal
           isSettingsOn={isSettingsOn}
           setIsSettingsOn={setIsSettingsOn}
