@@ -72,7 +72,7 @@ const App = () => {
             </div>
           </div>
         </div>
-          <ToggleButton pomodoro={pomodoro} setPomodoro={setPomodoro} />
+          <TogglexButton pomodoro={pomodoro} setPomodoro={setPomodoro} />
         <button onClick={() => setIsSettingsOn(true)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -12,7 +12,7 @@ const ToggleButton = ({ pomodoro, setPomodoro }) => {
     <button
       onClick={togglePausePlay}
       className="font-bold m-2 text-1xl text-base uppercase tracking-[0.3rem]">
-      {pomodoro.isPaused ? "Start" : "Pause"}
+      {pomodoro.isPaused ? <img src='/play.svg' alt="start_icon" /> : <img src="/pause.svg" alt="pause_icon"></img>}
     </button>
   );
 };
